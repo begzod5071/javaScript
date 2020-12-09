@@ -5,11 +5,11 @@ var elresult = elForm.querySelector('.form__result');
 elForm.addEventListener('submit', function (evt){
 evt.preventDefault();
 if(elFormInput.value % 3 === 0 && elFormInput.value % 5 === 0){
-  elresult.textContent = 'FizBuz';
+  elresult.textContent = 'FizzBuzz';
 } else if (elFormInput.value % 3 === 0){
-  elresult.textContent = 'Fiz';
+  elresult.textContent = 'Fizz';
 } else if(elFormInput.value % 5 === 0){
-  elresult.textContent = 'Buz';
+  elresult.textContent = 'Buzz';
 } else if(elFormInput.value / 3 &&  elFormInput.value / 5){
   elresult.textContent = elFormInput.value;
 }
