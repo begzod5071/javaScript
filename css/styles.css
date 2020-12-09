@@ -1,0 +1,9 @@
+.form__result{
+  width: 300px;
+  height: 100px;
+  background-color: lightgreen;
+  font-size: 26px;
+  font-style: italic;
+  letter-spacing: 10px;
+  color: red;
+}
